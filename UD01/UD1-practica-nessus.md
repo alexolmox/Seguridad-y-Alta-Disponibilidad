@@ -7,7 +7,7 @@ El análisis se centra en identificar servicios expuestos, configuraciones obsol
 He realizado un escaneo básico (Basic Network Scan) en Nessus con la dirección IP de MetaSploitable2. Después del escaneo, Nessus me ha ofrecido una lista con todas las vulnerabilidades de la máquina.
 
 ## 3. Resumen de resultados
-(Cuántas vulnerabilidades por severidad — puedes usar una tabla o una lista)
+(Cuántas vulnerabilidades por severidad — puedes usar una tabla o una lista) - Pondré 3 ejemplos (de las vulnerabilidades que han salido después del escaneo):
 | Vulnerabilidad | Severidad / CVSS | Origen | Descripción |
 | :--- | :--- | :--- | :--- |
 | Canonical Ubuntu Linux SEoL | Crítica / 10.0 | Configuración / Gestión de obsolescencia | El servidor está ejecutando **Ubuntu Linux 8.04**, una versión cuyo soporte de seguridad finalizó en mayo de 2013. Al estar en estado *Security End of Life* (SEoL), Canonical ya no publica parches ni actualizaciones de seguridad para este sistema. |
