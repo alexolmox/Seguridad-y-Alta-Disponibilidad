@@ -24,4 +24,6 @@
 
 ### Medida de prevención
 ###### Se puede prevenir este ataque de varias formas, entre ellos: *Filtrado de paquetes:*Evalúa la cabecera de cada paquete IP (analizando aspectos como la dirección de origen, destino y puertos) para determinar si permite o bloquea el tráfico entrante o saliente según las reglas establecidas. Si un paquete incumple las reglas o muestra inconsistencia en sus datos, el firewall o dispositivo de red lo descarta. *Autenticación mediante infraestructura de clave pública:* Usa un cifrado asimétrico, una clave privada para cifrar y autenticar, y una pública para descifrar. Impide que terceros deduzcan la clave privada, lo que permite verificar con seguridad a usuarios y dispositivos frente a ataques de suplantación. *Supervisión de redes y Firewalls:* Detecta de forma temprana actividades sospechosas para mitigar daños, aunque la suplantación de IP intente ocultarlas. El firewall autentica direcciones IP y filtra el tráfico potencialmente malicioso para evitar accesos no autorizados. *Formación en materia de seguridad:*Enseñar a los usuarios a evitar trampas como enlaces sospechosos para mitigar los datos de la suplantación de IP.
+<br>
 ### Fuente
+###### https://www.keyfactor.com/es/blog/what-it-is-ip-spoofing-how-to-protect-against-it/
